@@ -1,0 +1,51 @@
+/* SINGLE DRAGGABLE ELEMENT IN HTML  */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* MULTIPLE DRAGGABLE ELEMENTS IN HTML  */
+/* .container {
+    display: block;
+    flex-direction: row;
+} */
+
+/* SINGLE DRAGGABLE ELEMENT IN HTML  */
+#card {
+    width: 50%;
+    height: auto;
+    background-color: #fff;
+    border: .25em solid #e4dddd;
+    border-radius: 2.25em;
+    box-shadow: 0 0 2.25em rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MULTIPLE DRAGGABLE ELEMENTS IN HTML  */
+/* .card {
+    width: 50%;
+    height: 15%;
+    background-color: #fff;
+    border: .25em solid #e4dddd;
+    border-radius: 2.25em;
+    box-shadow: 0 0 2.25em rgba(0, 0, 0, 0.5);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1 {
+    font-size: small;
+}
+
+#drop-zone {
+    width: 50%;
+    height: 17em;
+    margin-top: 7em;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e4dddd;
+}
